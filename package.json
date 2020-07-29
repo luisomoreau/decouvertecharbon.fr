@@ -38,9 +38,7 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.0"
-    },
-    "devDependencies": {
+        "bootstrap": "4.5.0",
         "autoprefixer": "9.8.0",
         "browser-sync": "2.26.7",
         "chokidar": "3.4.0",
@@ -51,5 +49,7 @@
         "sass": "1.26.8",
         "shelljs": "0.8.4",
         "upath": "1.2.0"
+    },
+    "devDependencies": {
     }
 }
