@@ -52,3 +52,5 @@ Enfin, tapez la commande suivante (en prenant soin de remplacer `decouvertecharb
 dokku letsencrypt decouvertecharbon.fr
 ```
 
+## Configurer son projet
+
