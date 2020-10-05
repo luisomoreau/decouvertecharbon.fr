@@ -54,3 +54,30 @@ dokku letsencrypt decouvertecharbon.fr
 
 ## Configurer son projet
 
+Créer un dossier `/dist` à la racine de votre projet dans lequel vous pourrez mettre vos fichiers HTML.
+
+Ajoutez aussi un fichier `.env` à la racine de votre projet dans lequel vous aller renseigner le buildpack :
+```BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-static.git```
+
+Enfin créer un dernier fichier `static.json` à la racine de votre projet comme ci-dessous:
+```
+{
+  "root": "dist/",
+  "clean_urls": true
+}
+```
+
+Votre projet devrait ressembler à cela :
+```
+.
+├── dist
+│   ├── index.html
+├── .env
+├── static.json
+
+```
+
+## Passer ses changements en ligne avec git push
+
+
+
